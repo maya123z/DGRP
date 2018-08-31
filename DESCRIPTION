@@ -1,0 +1,17 @@
+Package: DGRP
+Title: Clean and Process GWAS Results for the Drosophila Genetic Reference Panel
+Version: 0.0.0.9000
+Authors@R: person("Maya", "Gosztyla", email = "maya.gosztyla@gmail.com", role = c("aut", "cre"))
+Description: This package takes the raw results output after performing a genome-wide association study (GWAS) using the website for the Drosophila Genetic Reference Panel (DGRP, http://dgrp2.gnets.ncsu.edu/). It organizes the results into a more easily readable format. It can also accept a binary phenotype file and use this to perform additionary analyses such as odds ratios.
+    Imports:
+        reshape2,
+        stringr,
+        dplyr,
+        tibble,
+        stats
+    Suggests:
+        openxlsx
+Depends: R (>= 3.1.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
